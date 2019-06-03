@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mas Ideas - Servicio de eventos sociales Tuxtla Gutierrez, Chiapas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/99fae6771e.js"></script>
+    <style>        
+        *{
+            color: #AF9453 !important;
+            font-size: 16px;
+        }
+        .letra-cool{
+            font-family: 'Lobster', cursive;
+            letter-spacing: 1rem;
+        }
+        .posicion-fija{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            z-index: 5;
+            width: 100%;
+        }
+        .margen-top-servicio{
+            margin-top: 4rem;
+        }
+
+        .contenedor{
+            width: 80%;
+            margin: auto;
+        }
+
+        .contenedor-item-servicios{
+            width: 94%;             
+        }
+
+        .contenedor-imagen-item{
+            width: 80%;
+            margin: auto;
+        }
+
+        .titulo-item{
+            font-size: 1.5rem;
+        }     
+
+        .margen-top-item{
+            margin-top: 4rem;
+        }
+        .margen-bottom-item{
+            margin-bottom: 4rem;   
+        }
+
+        footer{
+            background-color: #AF9453;         
+            width: 80%;
+            margin: auto;   
+            margin-top: 4rem;
+            display: flex;
+            justify-content: center;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+        .informacion{
+            width: 65%;            
+            display: flex;
+            justify-content: center;            
+        }
+        .cuadro-peque{
+            width: 30%;
+            padding-left: .4rem;
+            padding-right: .4rem;
+            border-right: 1px solid white;
+           
+            
+        }
+        .cuadro-mediano{
+            width: 40%;
+            padding-left: .4rem;
+            padding-right: .4rem;
+            border-right: 1px solid white;
+           
+        }
+        .correo-informacion{
+            font-size: .8rem;
+        }
+        .redes-sociales{            
+            width: 20%;      
+            display: flex;
+            justify-content: center;
+            align-items: center;      
+            
+        } 
+        @media only screen and (max-width: 1200px) {
+
+        }
+
+        @media only screen and (max-width: 992px) {
+            footer{                
+                flex-wrap: wrap;
+            }
+
+            .informacion{
+                width: 100%;      
+                border-bottom: 1px solid white;
+                margin-bottom: 1rem;                                               
+            }
+            .sin-borde{
+                border: 0px;
+            }
+            .redes-sociales{            
+                width: 100%;                                           
+            } 
+        }
+
+         /* Medium devices (landscape tablets, 768px and up) */
+         @media only screen and (max-width: 768px) {
+            .contenedor{
+                width: 100%;            
+            }
+            .contenedor-item-servicios{
+                width: 100%;                
+            }
+            footer{
+                width: 100%;
+                margin-top: 0px;                
+            }
+            .informacion{                          
+                display: block;
+                width: 80%;
+                margin: auto;
+                border: 0px;                        
+            }
+            .contenedor-generico-info{
+                width: 60%;
+                margin: auto;
+                border:0px;
+            }
+            .contenedor-imagen-item{
+                width: 50%;    
+                        
+            }
+            .item{
+                margin-bottom: 1rem;   
+            }
+            .row{
+                margin-left: 0px;
+                margin-right: 0px;                
+            }
+        }
+                  
+
+        /* Extra small devices (phones, 600px and down) */
+        @media only screen and (max-width: 576px) {
+            .texto-peque{
+               font-size: .7rem;
+            } 
+            .contenedor-generico-info{
+                width: 100%;
+                margin: auto;
+                border:0px;
+            }
+            .redes-sociales{            
+                width: 80%;    
+                margin: auto;                                       
+                display: block;
+            } 
+            
+        }
+       
+
+      
+    </style>
+</head>
+<body>  
+    <header class="bg-white posicion-fija">
+            <nav class=" navbar navbar-expand-lg navbar-light bg-white">
+                    <div class="navbar-brand">
+                            <a class="" href="./index.html"><strong>Mas Ideas</strong></a>
+                            <p class="texto-peque">Eventos Sociales y Banquetes - Tuxtla</p>
+                    </div>                    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>                                            
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Servicios
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./servicios.html#uno">Bodas</a>
+                            <a class="dropdown-item" href="./servicios.html#dos">XV años</a>                           
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>                       
+                      </ul>
+                    </div>
+            </nav>  
+    </header>     
+    <div class="jumbotron jumbotron-fluid bg-white margen-top-servicio" id="uno">
+            <div class="container">
+              <h1 class="display-3 text-center">Servicios</h1>              
+              <h2 class="display-4 text-center">Bodas</h2>
+            </div>
+    </div>           
+    <!--<div style="border:1px solid blue;background-image: url('https://images.pexels.com/photos/2226/food-couple-sweet-married.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');width: 200px; height: 200px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 150% auto;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;">
+    </div>-->    
+    <div class="contenedor">
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex justify-content-center item">
+                    <div class="contenedor-item-servicios bg-light rounded">
+                        <div class="contenedor-imagen-item margen-top-item">
+                            <img src="https://images.pexels.com/photos/2226/food-couple-sweet-married.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="..." class="img-thumbnail rounded-circle">
+                        </div>
+                        <p class="titulo-item text-center">Paquete Premium</p>
+                        <p class="text-center pl-2 pr-2 margen-bottom-item">
+                            Este paquete incluye, administración de la boda, decoración de salon, invitaciones, regalos y 
+                            y el fotografo.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center item">
+                        <div class="contenedor-item-servicios bg-light rounded">
+                                <div class="contenedor-imagen-item margen-top-item">
+                                    <img src="https://images.pexels.com/photos/2226/food-couple-sweet-married.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="..." class="img-thumbnail rounded-circle">
+                                </div>
+                                <p class="titulo-item text-center">Paquete Premium</p>
+                                <p class="text-center pl-2 pr-2 margen-bottom-item">
+                                    Este paquete incluye, administración de la boda, decoración de salon, invitaciones, regalos y 
+                                    y el fotografo.
+                                </p>
+                        </div>
+                    
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center item">
+                        <div class="contenedor-item-servicios bg-light rounded">
+                                <div class="contenedor-imagen-item margen-top-item">
+                                    <img src="https://images.pexels.com/photos/2226/food-couple-sweet-married.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="..." class="img-thumbnail rounded-circle">
+                                </div>
+                                <p class="titulo-item text-center">Paquete Premium</p>
+                                <p class="text-center pl-2 pr-2 margen-bottom-item">
+                                    Este paquete incluye, administración de la boda, decoración de salon, invitaciones, regalos y 
+                                    y el fotografo.
+                                </p>
+                        </div>
+                    
+                </div>
+            </div>
+    </div>    
+    <div class="jumbotron jumbotron-fluid bg-white" id="dos">
+        <h2 class="display-4 text-center">XV años</h2> 
+    </div> 
+    <div class="contenedor">
+            <div class="row">
+                <div class="col-12 col-md-4 d-flex justify-content-center item">
+                    <div class="contenedor-item-servicios bg-light rounded">
+                        <div class="contenedor-imagen-item margen-top-item">
+                            <img src="https://images.pexels.com/photos/2226/food-couple-sweet-married.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="..." class="img-thumbnail rounded-circle">
+                        </div>
+                        <p class="titulo-item text-center">Paquete Premium</p>
+                        <p class="text-center pl-2 pr-2 margen-bottom-item">
+                            Este paquete incluye, administración de la boda, decoración de salon, invitaciones, regalos y 
+                            y el fotografo.
+                        </p>
+                    </div>
+                    
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center item">
+                        <div class="contenedor-item-servicios bg-light rounded">
+                                <div class="contenedor-imagen-item margen-top-item">
+                                    <img src="https://images.pexels.com/photos/2226/food-couple-sweet-married.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="..." class="img-thumbnail rounded-circle">
+                                </div>
+                                <p class="titulo-item text-center">Paquete Premium</p>
+                                <p class="text-center pl-2 pr-2 margen-bottom-item">
+                                    Este paquete incluye, administración de la boda, decoración de salon, invitaciones, regalos y 
+                                    y el fotografo.
+                                </p>
+                        </div>
+                    
+                </div>
+                <div class="col-12 col-md-4 d-flex justify-content-center item">
+                        <div class="contenedor-item-servicios bg-light rounded">
+                                <div class="contenedor-imagen-item margen-top-item">
+                                    <img src="https://images.pexels.com/photos/2226/food-couple-sweet-married.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="..." class="img-thumbnail rounded-circle">
+                                </div>
+                                <p class="titulo-item text-center">Paquete Premium</p>
+                                <p class="text-center pl-2 pr-2 margen-bottom-item">
+                                    Este paquete incluye, administración de la boda, decoración de salon, invitaciones, regalos y 
+                                    y el fotografo.
+                                </p>
+                        </div>
+                    
+                </div>
+            </div>
+    </div>
+    <footer>
+            <div class="informacion">
+                <div class="cuadro-peque contenedor-generico-info">                 
+                    <p class="text-white">Colonia centro, 1 Sur entre 7 y 8 Poniente.</p> 
+                </div>
+                <div class="cuadro-mediano contenedor-generico-info">
+                    <p class="text-white">Tel: 961-222-11-55 </p>
+                    <p class="text-white">masideas.es@gmail.com</p>
+                </div>
+                <div class="cuadro-peque sin-borde contenedor-generico-info">
+                    <p class="text-white">© 2023 Mas ideas.</p>
+                    <p class="text-white">Diseñado y Desarrollado por <a href="#"><strong class="text-warning">Luis Gómez</strong></a></p>                
+                </div>
+            </div>
+            <div class="redes-sociales">
+                <div>
+                    <div class="d-flex justify-content-center">
+                        <p class="mr-2"><i class="fab fa-facebook-f text-white"></i></p>
+                        <p><i class="fab fa-instagram text-white"></i> </p>                    
+                    </div>               
+                    <a href="#" class="btn btn-outline-light text-white btn-block">Contactanos</a>
+                </div>
+            </div>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
